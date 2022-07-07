@@ -46,12 +46,13 @@ body{
 .donate-today h1{
     text-align: center;
     padding-top:25px;
-    color: rgb(6, 6, 6);
+    color: rgb(175, 5, 5);
     font-size: 35px;
     font-weight:2000;
 }
 .donate-today p{
     text-align: center;
+    color: rgb(165, 2, 194);
     
 }
 .donate-amount {
@@ -63,6 +64,7 @@ body{
 .donate-amount .amount{
    
     background-color: aliceblue;
+    color: rgb(118, 0, 94);
     height: 115px;
     width: 150px;
     margin: 15px;
@@ -73,6 +75,7 @@ body{
 }
 .donate-amount .amount-no-2{
     background-color: rgba(243, 104, 35, 0.196);
+    color: rgb(0, 92, 38);
     border: 3.5px solid orange;
     border-radius: 7px;
     height: 108px;
@@ -100,4 +103,217 @@ input[type=text] {
 hr{
    margin-left: 25.5%;
    margin-right: 25.5%;;
+}
+
+.donate-button-2{
+    text-align: center;
+    margin-top: 35px;
+}
+#donate-button-2{
+    text-decoration: none;
+    background-color: rgb(255, 253, 250);
+    border: solid orange 5px ;
+    padding : 12px;
+    font-size: 13px;
+    font-weight: 200px;
+    box-shadow:5px 5px 5px 3px rgb(12, 12, 12);
+    border-radius: 15%;
+}
+
+.Our-donate-plan{
+    margin-top: 70px;
+}
+
+.donate-plan{
+    text-align: center;
+
+}
+.donate-plan h1{
+    text-align: center;
+    padding-top:25px;
+    color: rgb(123, 0, 117);
+    font-size: 35px;
+    font-weight:2000;
+}
+.donate-plan p{
+    text-align: center;
+    color: rgb(0, 56, 153);
+    
+}
+.category-help-family{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 18%;
+    
+}
+.category-help-family  h3{
+    font-size: x-large;
+    color: rgb(72, 0, 76);
+}
+.category-help-family img{
+    margin-top: 45px;
+}
+
+.category-help-family .food-family{
+    background-color: rgba(189, 211, 230, 0.33);
+    height: 300px;
+    width: 270px;
+    padding: 15px;
+    text-align: left;
+    margin-right: 15px;
+}
+.food-family p{
+    font-size: small;
+}
+.category-help-family .shelter-family{
+    background-color: rgba(214, 195, 178, 0.429);
+    height: 305px;
+    width: 270px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+.shelter-family p{
+    font-size: small;
+}
+
+.category-help-family .education-child{
+    background-color: rgba(209, 155, 107, 0.385);
+    height: 300px;
+    width: 270px;
+    margin-left: 15px;
+    padding: 15px;
+    text-align: left;
+    
+}
+.education-child p{
+    font-size: small;
+}
+
+
+.depend-contribution{
+    display: flex;
+    margin-top: 80px;
+
+}
+.they-depend{
+    margin-left: 18%;
+}
+
+.depend-contribution .they-depend h1{
+    text-align: left;
+    padding-top:25px;
+    color: rgb(217, 98, 0);
+    font-size: x-large;
+    font-weight:2000;
+    
+}
+.depend-contribution .they-depend p{
+    text-align: left;
+    font-size: small;
+}
+.depend-contribution .depend-img img{
+    margin-left: 79px;
+    margin-top: 35.5px;
+}
+.depend-contribution .depend-img-2 img{
+    margin-left: 27px;
+    margin-top: 35.5px;
+}
+
+
+
+
+
+.survive-contribution{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 13%;
+
+}
+.they-survive{
+    margin-left: 68px;
+}
+.survive-contribution .they-survive h1{
+    text-align: left;
+    padding-top:25px;
+    color: rgb(144, 0, 118);
+    font-size: x-large;
+    font-weight:2000;
+    
+}
+.survive-contribution .they-survive p{
+    text-align: left;
+    font-size: small;
+}
+.survive-contribution .survive-img-3 img{
+    margin-left: 79px;
+    margin-top: 35.5px;
+}
+.survive-contribution .survive-img-4 img{
+    margin-left: 27px;
+    margin-top: 35.5px;
+}
+
+.updates {
+    box-sizing: border-box;
+    background-color: rgba(5, 240, 83, 0.281);
+    padding: 5%;
+    margin-left: 430px;
+    margin-right: 430px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.updates .email{
+    box-sizing: border-box;
+   
+}
+input[type=email] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 20px solid rgba(225, 209, 209, 0);
+    transition: 0.5s;
+   outline: rgb(0, 56, 153);
+    text-align: left;
+    border-radius: 10px;
+}
+.subscribe{
+    width: 27%;
+    font-size: large;
+    color: white;
+    background-color: rgba(184, 50, 1, 0.794);
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    border-radius: 10px;
+
+}
+.footer{
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    padding: 2.5%;
+    margin-top: 100px;
+}
+.footer h1{
+    font-family: 'The Nautigal', cursive;
+    color: rgb(171, 77, 10);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000; 
+    
+    
+    
+}
+.footer p{
+    color: white;
+    text-align: center;
 }
